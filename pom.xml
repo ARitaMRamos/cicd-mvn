@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://.apache.org/POM/4.0.0 http://.apache.org/xsd/-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.celfocus.qa.cicd.training</groupId>
     <artifactId>message-receiver</artifactId>
     <version>0.7.0</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <.compiler.source>1.8</.compiler.source>
+        <.compiler.target>1.8</.compiler.target>
         <junit-jupiter-engine.version>5.7.1</junit-jupiter-engine.version>
-        <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
-        <jacoco-maven-plugin.version>0.8.6</jacoco-maven-plugin.version>
+        <-surefire-plugin.version>2.22.2</-surefire-plugin.version>
+        <jacoco--plugin.version>0.8.6</jacoco--plugin.version>
     </properties>
     <build>
         <finalName>message-receiver</finalName>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven-surefire-plugin.version}</version>
+                <groupId>org.apache..plugins</groupId>
+                <artifactId>-surefire-plugin</artifactId>
+                <version>${-surefire-plugin.version}</version>
             </plugin>
             <plugin>
                 <groupId>org.jacoco</groupId>
-                <artifactId>jacoco-maven-plugin</artifactId>
-                <version>${jacoco-maven-plugin.version}</version>
+                <artifactId>jacoco--plugin</artifactId>
+                <version>${jacoco--plugin.version}</version>
                 <executions>
                     <execution>
                         <id>jacoco-initialize</id>

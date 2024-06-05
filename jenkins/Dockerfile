@@ -1,4 +1,4 @@
-FROM maven:3-alpine
+FROM :3-alpine
 
 ENV SONAR_RUNNER_HOME=sonar-scanner
 ENV PATH=$PATH:/sonar-scanner/bin
