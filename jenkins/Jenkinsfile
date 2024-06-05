@@ -20,7 +20,7 @@ pipeline {
     }
 
     stages {
-        stage('Build and test') {
+        stage('Build and test2') {
             steps {
                 sh "java -jar /checkstyle/checkstyle.jar -c ${jenkins/checkstyle.xml} src/main/**"
 
