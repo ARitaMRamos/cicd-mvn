@@ -22,7 +22,7 @@ pipeline {
     stages {
         stage('Build and test2') {
             steps {
-                sh "java -jar /checkstyle/checkstyle.jar -c ${jenkins/checkstyle.xml} src/main/**"
+                sh "java -jar checkstyle/checkstyle.jar -c ${jenkins/checkstyle.xml} src/main/**"
 
                 sh "mvn clean test -Dtest='${UNIT_TESTS_PATH}'"
                 step([$class: 'JacocoPublisher', execPattern: 'target/jacoco.exec', exclusionPattern: '**/Main.class'])
